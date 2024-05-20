@@ -1,0 +1,24 @@
+{
+  "name": "practicenodejs",
+  "version": "1.0.0",
+  "description": "nodejspractice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-iv-ek/Nodejs.git"
+  },
+  "author": "vivek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v-iv-ek/Nodejs/issues"
+  },
+  "homepage": "https://github.com/v-iv-ek/Nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

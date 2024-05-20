@@ -1,7 +1,7 @@
 const http = require("http");
-const requestUrl=require('./request')
+const request = require("./request");
+console.log(request)
 
+const server = http.createServer(request);
 
-const server = http.createServer(requestUrl);
-
-server.listen(4000);
+server.listen(3000);
