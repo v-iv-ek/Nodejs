@@ -1,7 +1,7 @@
 const express=require('express');
 const bodyParser=require('body-parser')
 const app=express();
-const adminRoute=require('./Routes/admin')
+const adminRoute=require('./Routes/product')
 const shopRoute=require('./Routes/shop')
 const contactRoute=require('./Routes/contactus')
 const successRoute=require('./Routes/success')
