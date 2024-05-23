@@ -3,9 +3,9 @@ const router=express.Router();
 const path=require('path')
 const url=path.join(__dirname,'../views')
 
-router.get("/shop",(req,res,next)=>{
+router.get("/contactus",(req,res,next)=>{
     console.log(req.body)
-    res.sendFile(path.join(url,'/shop.html'))
+    res.sendFile(path.join(url,'/contactus.html'))
 })
 
 module.exports=router;
